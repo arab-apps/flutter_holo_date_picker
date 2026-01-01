@@ -163,7 +163,7 @@ enum DateTimePickerLocale {
 
 /// Default value of date locale
 const DateTimePickerLocale DATETIME_PICKER_LOCALE_DEFAULT =
-    DateTimePickerLocale.en_us;
+    DateTimePickerLocale.ar_EG;
 
 const Map<DateTimePickerLocale, _StringsI18n> datePickerI18n = {
   DateTimePickerLocale.ar_EG: const _StringsArEg(),
