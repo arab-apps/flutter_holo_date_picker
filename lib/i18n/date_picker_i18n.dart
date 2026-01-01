@@ -1,5 +1,7 @@
 import 'dart:math';
 
+part 'string_ar_eg.dart';
+
 part 'strings_ar.dart';
 
 part 'strings_bn.dart';
@@ -74,6 +76,9 @@ abstract class _StringsI18n {
 }
 
 enum DateTimePickerLocale {
+  /// Arabic (AR) Egypt
+  ar_EG,
+
   /// English (EN) United States
   en_us,
 
@@ -226,7 +231,8 @@ class DatePickerI18n {
       if (weeks.isNotEmpty) {
         return weeks;
       }
-      return datePickerI18n[DATETIME_PICKER_LOCALE_DEFAULT]!.getWeeksFull();
+      return datePickerI18n[DATETIME_PICKER_LOCALE_DEFAULT]!
+          .getWeeksFull();
     }
 
     List<String>? weeks = i18n!.getWeeksShort();
