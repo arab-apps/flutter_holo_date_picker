@@ -166,6 +166,7 @@ const DateTimePickerLocale DATETIME_PICKER_LOCALE_DEFAULT =
     DateTimePickerLocale.en_us;
 
 const Map<DateTimePickerLocale, _StringsI18n> datePickerI18n = {
+  DateTimePickerLocale.ar_EG: const _StringsArEg(),
   DateTimePickerLocale.en_us: const _StringsEnUs(),
   DateTimePickerLocale.zh_cn: const _StringsZhCn(),
   DateTimePickerLocale.pt_br: const _StringsPtBr(),
